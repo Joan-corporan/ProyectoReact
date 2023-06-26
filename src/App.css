@@ -1,0 +1,122 @@
+
+
+/* Estilos del navbar ..................... */
+*{
+    margin: 0;
+    padding: 0;
+}
+.bagC{
+    background-color: #F0DFC5;
+}
+div .bagC  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+/* .navC {
+    color: black !important;
+} */
+
+/* Estilos de la HomePages : Quienes somos .......................... */
+
+
+
+.qsomosdivH{
+    display: flex;
+    flex-direction: row;
+}
+.divH1{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+    width: 100vw;
+}
+/* Estilos del componenete Formulario el contacto........... */
+
+.fomr-dflexC{
+    
+    margin-bottom:60px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+    
+}
+.divBuForCo{
+    margin-top: 20px;
+    text-align: center;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center; */
+    
+}
+.bagrForCon{
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgb(244, 246, 248);
+
+}
+.labfC{
+    font-size: 22px;
+    margin:12px ;
+}
+.inpf{
+    width: 60%;
+    padding: 4px 8px;
+    border-style: solid;
+    border-color: #F0DFC5;
+    border-radius: 10px;
+}
+.BuForCo{
+    font-weight: 600;
+    padding: 3px 10px;
+    font-size: 18px;
+    border-style: solid;
+    border-radius: 16px;
+    transition: 200ms;
+}
+
+
+.BuForCo:hover{
+    box-shadow: 1px 1px 3px rgb(72, 71, 71);
+}
+.pformc{
+    font-size: 18px;
+    background-color: #F0DFC5;
+    padding: 2px 5px;
+    border-style: solid;
+    border-radius: 13px;
+    border-color: #F0DFC5;
+}
+.divContForm{
+    width: 100%;
+
+}
+.claswi{
+    text-align: center;
+    width: 100%;
+}
+
+
+
+
+
+
+
+.divfooter{
+    height: 100px;
+    
+    background-color: whitesmoke;
+}
+.divfooter h2{
+    text-align: center;
+
+    margin: 0;
+    padding: 0;
+}

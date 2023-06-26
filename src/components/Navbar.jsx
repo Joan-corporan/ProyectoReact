@@ -4,19 +4,21 @@ import { NavLink } from "react-router-dom";
 export const Navbar = () => {
   return (
     <div>
-      <header>
-        <div><h2>Logo</h2></div>
-        <nav>
-          <ul>
-           
-            <div>
-              <NavLink to="/">Sobre Nosotros</NavLink>
+      <header className=" bagC ">
+        <div>
+        <img src={"../"} alt="  " />
+          <h2>Logo</h2>
+        </div>
+        <nav className='navbar navbar-expand-sm '> 
+          <ul className="navbar-collapse">
+            <div className="navbar-nav">
+              <NavLink className='navC nav-item nav-link' to="/">Sobre Nosotros</NavLink>
             </div>
-            <div>
-              <NavLink to="nmenu">Nuestro Menú</NavLink>
+            <div className="navbar-nav">
+              <NavLink className='nav-item nav-link' to="nmenu">Nuestro Menú</NavLink>
             </div>
-            <div>
-              <NavLink to="reserva">Reservaciones</NavLink>
+            <div className="navbar-nav">
+              <NavLink className='nav-item nav-link' to="reserva">Reservaciones</NavLink>
             </div>
           </ul>
         </nav>
