@@ -1,12 +1,18 @@
-import React from 'react'
+import React from "react";
 
 export const Footer = () => {
   return (
     <>
-    <div className='divfooter'>
+      <div className="divfooter">
         <h2>Footer</h2>
-    </div>
-
+        <div>
+          <hr />
+        </div>
+        <p>
+          © 2023. Todos los derechos reservados. Esta es una página de
+          aterrizaje ficticia para fines académicos.
+        </p>
+      </div>
     </>
-  )
-}
+  );
+};

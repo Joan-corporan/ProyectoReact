@@ -31,8 +31,12 @@ export const FormularioContHpage = () => {
             </form>
           </div>
         </div>
-        <div className="divH1 container">
-          <h4>Contactate con nosotros</h4>
+        <div className="divH1 container bagrContacF">
+          <h4>Ubicación:</h4>
+          <div>
+            <p></p>
+            <p></p>
+          </div>
         </div>
       </div>
     </>
