@@ -30,12 +30,13 @@ export const Reserva = () => {
   };
   const submitInfo = async (e) => {
     e.preventDefault();
-    if (info.nombre === "" || info.comida === "") {
+    if (info.nombre === "" || info.comida === "" || info.telefono === "" || info.fecha === "" || info.hora === "" || info.comensales === "") {
       toast("Hay campos vacios", {
         type: "warning",
         autoClose: 3000,
       });
       return;
+    
     }
     try {
       if (editarID === "") {
@@ -112,7 +113,7 @@ export const Reserva = () => {
           name="telefono"
           min={900000000}
           max={999999999}
-          required
+          
           onChange={infInput}
         />
 
@@ -123,7 +124,6 @@ export const Reserva = () => {
           placeholder="2"
           min={1}
           max={9}
-          required
           value={info.comensales}
           onChange={infInput}
         />
@@ -137,7 +137,6 @@ export const Reserva = () => {
           onChange={infInput}
           min= {moment().format('YYYY-MM-DD')}
           max= {moment().add('2','weeks').format('YYYY-MM-DD')}
-          required
         />
 
         <label htmlFor="reserva">Hora de reserva</label>
@@ -147,7 +146,7 @@ export const Reserva = () => {
           onChange={infInput}
           value={info.reserva}
           placeholder=""
-          required
+          
         />
 
         <label htmlFor="comida">Comida</label>
@@ -158,7 +157,6 @@ export const Reserva = () => {
           placeholder="Escriba su comida"
           onChange={infInput}
           value={info.comida}
-          required
         />
         <button type="submit">Reservar</button>
       </form>

@@ -1,19 +1,18 @@
 import React from "react";
 
-export const CompMenu = () => {
+export const CompMenu2 = () => {
     return (
-        
-            <div className="container divnone ">
-                <div className="container divMenu">
-                    <article className="Logmenu">
-                    <h1>
-                        <p>Restaurante C&B</p>
-                    </h1>
-                    <span className="Logmen" >Menú</span>
-
+        <>
+            <div className="container prueba">
+                <div className="container divMen">
+                    <article className="Logm">
+                        <h1>
+                            <p>Restaurante C&B</p>
+                        </h1>
+                        <span className="Log">Menú</span>
                     </article>
-                    <div className="divCmc1 container">
-                        <div className="menuCont1">
+                    <div className="divCmc container">
+                        <div className="menuCont">
                             <h2>imagen de Hamburguesa</h2>
                             <span>
                                 Lorem ipsum dolor sit amet consectetur,
@@ -25,7 +24,7 @@ export const CompMenu = () => {
                                 aliquam exercitationem at enim quam
                             </span>
                         </div>
-                        <div className="menuCont1">
+                        <div className="menuCont">
                             <h2>Hamburguesa</h2>
                             <ul>
                                 <li>Mediana</li>
@@ -36,18 +35,8 @@ export const CompMenu = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="divCmc1 container">
-                        <section className="menuCont1">
-                            <h2>Sandwich</h2>
-                            <ul>
-                                <li>Vegetariano</li>
-                                <li>Aceitunas</li>
-                                <li>Doble carne</li>
-                                <li>Carne con ají </li>
-                                <li>Pollo y queso</li>
-                            </ul>
-                        </section>
-                        <section className="menuCont1">
+                    <div className="divCmc container">
+                        <section className="menuCont">
                             <h2>imagen de sandwich</h2>
                             <span>
                                 Lorem ipsum dolor sit amet consectetur
@@ -57,9 +46,19 @@ export const CompMenu = () => {
                                 vel a mollitia possimus?*3
                             </span>
                         </section>
+                        <section className="menuCont">
+                            <h2>Sandwich</h2>
+                            <ul>
+                                <li>Vegetariano</li>
+                                <li>Aceitunas</li>
+                                <li>Doble carne</li>
+                                <li>Carne con ají </li>
+                                <li>Pollo y queso</li>
+                            </ul>
+                        </section>
                     </div>
-                    <div className="divCmc1 container">
-                        <section className="menuCont1">
+                    <div className="divCmc container">
+                        <section className="menuCont">
                             <h2>imagen de Pizzas</h2>
                             <span>
                                 Lorem ipsum dolor sit amet consectetur
@@ -71,7 +70,7 @@ export const CompMenu = () => {
                             </span>
                         </section>
 
-                        <section className="menuCont1">
+                        <section className="menuCont">
                             <h2>Pizzas</h2>
                             <ul>
                                 <li>Napolitana</li>
@@ -82,19 +81,8 @@ export const CompMenu = () => {
                             </ul>
                         </section>
                     </div>
-                    <div className="divCmc1 container">
-                        <section className="menuCont1">
-                            <h2>Bebidas</h2>
-                            <ul>
-                                <li>Agua mineral</li>
-                                <li>Agua con gas</li>
-                                <li>Jugos Naturales</li>
-                                <li>Coca cola</li>
-                                <li>Cervezas</li>
-                            </ul>
-                        </section>
-
-                        <section className="menuCont1">
+                    <div className="divCmc container">
+                        <section className="menuCont">
                             <h2>Imagen de bebidas</h2>
                             <span>
                                 Lorem ipsum dolor sit amet consectetur
@@ -114,9 +102,19 @@ export const CompMenu = () => {
                                 impedit quaerat non tempore tempora vel et.
                             </span>
                         </section>
+                        <section className="menuCont">
+                            <h2>Bebidas</h2>
+                            <ul>
+                                <li>Agua mineral</li>
+                                <li>Agua con gas</li>
+                                <li>Jugos Naturales</li>
+                                <li>Coca cola</li>
+                                <li>Cervezas</li>
+                            </ul>
+                        </section>
                     </div>
                 </div>
             </div>
-        
+        </>
     );
 };
