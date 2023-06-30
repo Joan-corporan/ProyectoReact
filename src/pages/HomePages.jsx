@@ -3,10 +3,14 @@ import { QsomosHpages } from "../components/QsomosHpages";
 import { FormularioContHpage } from "../components/FormularioContHpage";
 
 
-export const HomePages = () => {
+export const HomePages = ({nombre}) => {
+
+
+  
+
   return (
     <>
-      <QsomosHpages />
+      <QsomosHpages nombre={nombre} otraprop={'Hamburguesa'}  />
       <FormularioContHpage/>
     </>
   );

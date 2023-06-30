@@ -14,16 +14,7 @@ export const CompMenu = () => {
                     </article>
                     <div className="divCmc1 container">
                         <div className="menuCont1">
-                            <h2>imagen de Hamburguesa</h2>
-                            <span>
-                                Lorem ipsum dolor sit amet consectetur,
-                                adipisicing elit. Recusandae praesentium tempore
-                                quas reprehenderit veritatis assumenda.
-                                Inventore, repellat suscipit nostrum, modi
-                                consectetur accusamus officia ullam sequi
-                                facilis recusandae rerum eum esse? Impedit
-                                aliquam exercitationem at enim quam
-                            </span>
+                        <img src="../../public/assets/images/imgMenu1.jpeg" alt="imagen de hamburguesa" />
                         </div>
                         <div className="menuCont1">
                             <h2>Hamburguesa</h2>
@@ -48,27 +39,14 @@ export const CompMenu = () => {
                             </ul>
                         </section>
                         <section className="menuCont1">
-                            <h2>imagen de sandwich</h2>
-                            <span>
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Alias, enim cum sunt ut
-                                facilis nisi velit ab provident eum dicta
-                                voluptates iure distinctio iusto, labore, ullam
-                                vel a mollitia possimus?*3
-                            </span>
+                            
+                         <img src="../../public/assets/images/imagMenu2.jpeg" alt="" />
                         </section>
                     </div>
                     <div className="divCmc1 container">
                         <section className="menuCont1">
-                            <h2>imagen de Pizzas</h2>
-                            <span>
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Voluptatum veniam iste,
-                                similique alias qui, et maxime officiis unde
-                                excepturi tempore officia blanditiis sint
-                                temporibus culpa sunt corrupti iusto distinctio
-                                quibusdam! Temporibus voluptatibus nisi
-                            </span>
+                            
+                            <img src="../../public/assets/images/imgMenu3.jpeg" alt="" />
                         </section>
 
                         <section className="menuCont1">
@@ -95,24 +73,8 @@ export const CompMenu = () => {
                         </section>
 
                         <section className="menuCont1">
-                            <h2>Imagen de bebidas</h2>
-                            <span>
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Odit consequuntur fugiat earum
-                                aliquam ab perspiciatis animi dignissimos
-                                numquam voluptate fugit illo ipsa magnam eum
-                                inventore est, voluptas sunt, unde magni! Porro
-                                molestias facilis explicabo. Incidunt, expedita
-                                nihil modi, itaque quaerat aperiam cupiditate
-                                maxime ipsa, fugiat numquam inventore velit quas
-                                hic id voluptatibus animi consequatur nisi aut
-                                fuga necessitatibus dolore. Vel. Voluptates
-                                tempora aliquam rerum quae assumenda! Explicabo
-                                sint rerum nam debitis non voluptates
-                                praesentium quos exercitationem. Minus harum
-                                deleniti labore quisquam! Laudantium corrupti
-                                impedit quaerat non tempore tempora vel et.
-                            </span>
+                            
+                            <img src="../../public/assets/images/imgMenu4.jpeg" alt="" />
                         </section>
                     </div>
                 </div>

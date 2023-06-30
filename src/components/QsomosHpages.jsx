@@ -1,47 +1,22 @@
 import React from "react";
 
-export const QsomosHpages = () => {
+export const QsomosHpages = ({nombre, otraprop}) => {
     return (
-        <>
+        
             <div className="qsomosdivH ">
                 <div className="divH1 container">
-                    <h2>imgen</h2>
-                    <div>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Quod aspernatur doloremque dolorum nihil quas,
-                            eveniet modi iusto, accusamus rerum reprehenderit
-                            consequatur saepe ab laudantium, quos sit quidem
-                            dolor recusandae commodi. Sit nostrum nemo fugit
-                            pariatur eum ipsum qui ipsa necessitatibus explicabo
-                            quasi ducimus, officiis maxime sapiente, accusantium
-                            hic delectus illum voluptatum harum dolorum ullam
-                            iusto corrupti, illo numquam? Amet, ducimus. Numquam
-                            nemo doloremque mollitia explicabo, possimus
-                            adipisci consequuntur hic quisquam, architecto alias
-                            repellendus. Assumenda, dolorem tempora. Corrupti
-                            odio architecto, explicabo delectus aliquam dolor.
-                            Commodi eaque harum debitis ipsam temporibus
-                            reprehenderit. Similique nostrum vero iure debitis
-                            ea quae. Odio nostrum nisi ipsa. Obcaecati
-                            voluptatibus quidem eaque accusamus assumenda
-                            laboriosam, dolor facere doloribus ab. Quia sapiente
-                            magnam est cumque mollitia et! Aliquam? Obcaecati
-                            dolorem sit provident voluptate rerum odio harum
-                            eius? Repudiandae vel nihil earum doloribus beatae
-                            dignissimos impedit neque laborum facere non vitae
-                            omnis assumenda, delectus mollitia accusamus! Odio,
-                            quod optio.
-                        </p>
+                    
+                    <div className="divQimg">
+                        {/* <img src="../../public/assets/images/img1H.jpeg" alt="Hamburguesa" /> */}
                     </div>
                 </div>
 
-                <div className="divH1  container">
-                    <h3>SOBRE NOSOTROS</h3>
+                <div className="divH1  container ">
+                    <span>SOBRE NOSOTROS {otraprop}</span>
                     <div>
-                        <p></p>
+                        
                         <p>
-                            C&B es una empresa gastronómica familiar,
+                            {nombre} es una empresa gastronómica familiar,
                             contamos con una larga trayectoria, más de 27 años
                             compartiendo nuestros platos, nunca nos atrevimos a
                             expander este gran Don hasta el día de hoy.
@@ -68,11 +43,11 @@ export const QsomosHpages = () => {
                             magia para compartir con familia y amigos, teniendo
                             una experiencia única.
                         </p>
-                        <p></p>
-                        <p></p>
+                        {/* <p></p>
+                        <p></p> */}
                     </div>
                 </div>
             </div>
-        </>
+        
     );
 };

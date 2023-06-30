@@ -1,93 +1,130 @@
-
-
 /*......................... Estilos del navbar ..................... */
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.bagC{
-    background-color: #F0DFC5;
+.bagC {
+    background-color: #f0dfc5;
 }
-div .bagC  {
+div .bagC {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+div .bagC nav ul{
+    margin-bottom: 0;
+}
+.div2navF{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
-
-
+.navC{
+    font-size: 18px;
+}
+div .bagC .div2navF span a{
+    color: black;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 26px;
+    font-weight: 600;
+}
 
 /*................... Estilos de la HomePages : Quienes somos .......................... */
 
-
-
-.qsomosdivH{
+.qsomosdivH {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
 }
-.divH1{
+.divH1 {
     margin-top: 40px;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
+    width: 50%;
+}
+.divH1 p{
+    font-size: 18px;
+}
+.divH1 span{
+    font-weight: 600;
+    font-size: 21px;
+    color: #4f4d4a;
+}
+.divQimg img{
+   border-radius: 8px;
+    width: 100%;
+}
+@media (max-width:991px) {
+    .divH1{
+        width: 100%;
+    }  
+    
+}
+.divQimg{
+    background-image :url(../public/assets/images/img1H.jpeg) ;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+   /*  filter: grayscale(50%); */
+   border-radius: 12px;
+    
 
     
 }
 @media (max-width: 991px) {
-    .qsomosdivH{
+    .qsomosdivH {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
-    .bagrContacF{
+    .bagrContacF {
         margin-left: 0 !important;
     }
-  }
+}
 /*........................... Estilos del componenete Formulario el contacto.................... */
 
-.dispFlCont{
+.dispFlCont {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.fomr-dflexC{
-    
-    margin-bottom:60px ;
+.fomr-dflexC {
+    margin-bottom: 60px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
 }
-.divBuForCo{
+.divBuForCo {
     margin-top: 20px;
     text-align: center;
-    
-    
 }
-.bagrForCon{
+.bagrForCon {
     border-radius: 8px;
     margin-bottom: 20px;
     padding: 20px;
     background-color: rgb(244, 246, 248);
-
 }
-.labfC{
+.labfC {
     font-size: 22px;
-    margin:12px ;
+    margin: 12px;
 }
-.inpf{
+.inpf {
     width: 60%;
     padding: 4px 8px;
     border-style: solid;
-    border-color: #F0DFC5;
+    border-color: #f0dfc5;
     border-radius: 10px;
 }
-.BuForCo{
+.BuForCo {
     font-weight: 600;
     padding: 3px 10px;
     font-size: 18px;
@@ -96,39 +133,37 @@ div .bagC  {
     transition: 200ms;
 }
 
-
-.BuForCo:hover{
+.BuForCo:hover {
     box-shadow: 1px 1px 3px rgb(72, 71, 71);
 }
-.pformc{
+.pformc {
     font-size: 18px;
-    background-color: #F0DFC5;
+    background-color: #f0dfc5;
     padding: 2px 5px;
     border-style: solid;
     border-radius: 13px;
-    border-color: #F0DFC5;
+    border-color: #f0dfc5;
 }
-.divContForm{
+.divContForm {
     width: 100%;
-
 }
-.claswi{
+.claswi {
     text-align: center;
     width: 100%;
 }
 
 /* .........................Estilos del footer.......................................... */
-.divfooter{
+.divfooter {
     padding-bottom: 15px;
     background-color: whitesmoke;
 }
-.divfooter h2{
+.divfooter h2 {
     text-align: center;
 
     margin: 0;
     padding: 0;
 }
-.divfooter p{
+.divfooter p {
     color: rgba(0, 0, 0, 0.43);
     text-align: center;
 }
@@ -138,14 +173,14 @@ div .bagC  {
     align-items: center;
     width: 90%;
 }
-.divfooter div  {
+.divfooter div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 /* ...................Estilos de la seccion Contactate con nostros del homepages................ */
-.bagrContacF{
+.bagrContacF {
     border-radius: 8px;
     margin-bottom: 20px;
     margin-left: 10px;
@@ -155,149 +190,142 @@ div .bagC  {
 
 /* ....................Estilos Menu............................. */
 
-
-
-.divMenu .Logmenu{
+.divnone{
+    width: 80%;
+}
+.divMenu .Logmenu {
     text-align: center;
     margin-bottom: 20px;
-    
-    
-    
 }
-.divMenu .Logmen{
-    font-size: 50px;
-    font-weight:600 ;
-
+.divMenu .Logmen {
+    font-size: 40px;
+    font-weight: 400;
+    text-decoration: underline;
 }
 
-
-
-.divMenu{
+.divMenu {
     padding: 40px 0;
     margin: 40px 0;
     background-color: rgba(253, 220, 3, 0.074);
     border-radius: 15px;
-    /* display: none; */
     
 }
-.divMenu p{
-    font-size: 55px;
-    text-shadow: 1px 1px 8px;
+.divMenu p {
+    font-size: 50px;
+    text-shadow: 0.5px 0.5px 21px;
     text-align: center;
-    margin-bottom: 30px;
-}
-.divCmc1{
     
-    padding:0 60px;
+    /* margin-bottom: 30px; */
+}
+.divCmc1 {
+    padding: 0 60px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin: 20px 0;
-    
 }
-.menuCont1{
+.menuCont1 {
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
-
-
+.menuCont1 img{
+    width: 100%;
+    border-radius: 12px;
+}
+.menuCont1 li{
+    font-size: 19px;
+}
 
 /* .................... Estilos del menu Responsive......................... */
 
-
-.prueba{
+.prueba {
     display: none;
 }
 
-
-.divMen .Logm{
+.divMen .Logm {
     text-align: center;
     margin-bottom: 20px;
-    
-    
-    
 }
-.divMen .Log{
+.divMen .Log {
     font-size: 50px;
-    font-weight:600 ;
-
+    font-weight: 600;
 }
 
-
-
-.divMen{
+.divMen {
     padding: 40px 0;
     margin: 40px 0;
     background-color: rgba(253, 220, 3, 0.074);
     border-radius: 15px;
-    
-    
 }
-.divMen p{
+.divMen p {
     font-size: 55px;
     text-shadow: 1px 1px 8px;
     text-align: center;
     margin-bottom: 30px;
 }
-.divCmc{
-    
-    padding:0 60px;
+.divCmc {
+    padding: 0 60px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 20px 0;
-    
 }
-.menuCont{
+.menuCont {
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+.menuCont img{
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+.menuCont li{
+    font-size: 19px;
+}
 
 @media (max-width: 767px) {
-    .divnone{
-     display: none;
+    .divnone {
+        display: none;
     }
-    .prueba{
+    .prueba {
         display: block;
-    } 
-     
- }
+    }
+    .menuCont{
+        width: 100%;
+    }
+}
 
- /*.............. Estilos de Formulario de Reserva................ */
+/*.............. Estilos de Formulario de Reserva................ */
 
-
- .contFormR{
+.contFormR {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
- }
- .contFormR h2 {
-    
+}
+.contFormR h2 {
     margin-top: 55px;
     font-size: 3rem;
     font-family: Arial, Helvetica, sans-serif;
- }
- .tableF{
+}
+.tableF {
     padding: 10px;
     margin: 40px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 12px;
-    
-    background-color:#f0dfc528 ;
- }
- .tableF label{
+
+    background-color: #f0dfc528;
+}
+.tableF label {
     font-size: 23px;
     margin: 10px;
 }
@@ -305,54 +333,51 @@ div .bagC  {
     text-align: end;
 }
 
-.tableF input{
-     width: 100%;
+.tableF input {
+    width: 100%;
     padding: 3px 8px;
     font-size: 22px;
     border-style: solid;
     border-radius: 12px;
-    border-color: #F0DFC5;
- }
- .btonForm{
+    border-color: #f0dfc5;
+}
+.btonForm {
     margin: 30px 0;
     text-align: center;
- }
- .btonForm button{
+}
+.btonForm button {
     font-weight: 600;
     padding: 3px 10px;
     font-size: 18px;
     border-style: solid;
     border-radius: 16px;
     transition: 200ms;
- }
- .btonForm button:hover{
+}
+.btonForm button:hover {
     box-shadow: 1px 1px 3px rgb(72, 71, 71);
- }
- @media (max-width:467px) {
-    .tableF label{
+}
+@media (max-width: 467px) {
+    .tableF label {
         font-size: 16px;
         margin: 10px;
     }
-    .tableF input{
+    .tableF input {
         width: 100%;
-       padding: 3px 8px;
-       font-size: 15px;
-       border-style: solid;
-       border-radius: 12px;
-       border-color: #F0DFC5;
+        padding: 3px 8px;
+        font-size: 15px;
+        border-style: solid;
+        border-radius: 12px;
+        border-color: #f0dfc5;
     }
-    
- }
+}
 
- /* ................ Estilos de la tabla de reservas ..............*/
+/* ................ Estilos de la tabla de reservas ..............*/
 
- .tableF2{
+.tableF2 {
     text-align: center;
     width: 100%;
-    
-    
 }
-.contaTR{
+.contaTR {
     overflow: auto;
     border-radius: 12px;
     background-color: rgba(240, 255, 255, 0.65);
@@ -363,35 +388,32 @@ div .bagC  {
     width: 80%;
     margin: 30px 0;
     padding: 0 10px;
-
- }
- .tableF2{
+}
+.tableF2 {
     margin: 30px;
- }
+}
 
- .tableF2 th{
+.tableF2 th {
     font-size: 21px;
-   
- }
- .tableF2 td{
-    font-size:19px ;
-    
- }
- .tableF2 button {
-    padding:3px 6px ;
-    margin:5px ;
+}
+.tableF2 td {
+    font-size: 19px;
+}
+.tableF2 button {
+    padding: 3px 6px;
+    margin: 5px;
     border-radius: 8px;
     border-style: solid;
- }
- .butnEd{
-    background-color:#5AD3E2 ;
- }
- .butnEl{
-    background-color:#ED4734 ;
- }
+}
+.butnEd {
+    background-color: #5ad3e2;
+}
+.butnEl {
+    background-color: #ed4734;
+}
 
- @media (max-width:991px ) {
-    .tableF2{
+@media (max-width: 991px) {
+    /*  .tableF2{
         text-align: center;
         width: 100%;
         
@@ -426,7 +448,28 @@ div .bagC  {
         border-radius: 8px;
         border-style: solid;
      }
-
-    
- }
-
+ */
+    table {
+        width: 100%;
+    }
+    thead {
+        display: none;
+    }
+    tr:nth-of-type(2n) {
+        background-color: inherit;
+    }
+    tr td:first-child {
+        background: #f0f0f0;
+        font-weight: bold;
+        font-size: 1.3em;
+    }
+    tbody td {
+        display: block;
+        text-align: center;
+    }
+    tbody td:before {
+        content: attr(data-th);
+        display: block;
+        text-align: center;
+    }
+}

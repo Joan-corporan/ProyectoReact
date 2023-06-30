@@ -32,7 +32,6 @@ export const Reserva = () => {
         e.preventDefault();
         if (
             info.nombre === "" ||
-            /* info.comida === "" || */
             info.telefono === "" ||
             info.fecha === "" ||
             info.hora === "" ||
@@ -72,7 +71,7 @@ export const Reserva = () => {
             });
             setinfoArray(docs);
             console.log("obtener datos");
-            /*console.log(infoArray)  */
+            
         });
     };
     const bEliminar = async (id) => {
@@ -192,24 +191,7 @@ export const Reserva = () => {
                                         placeholder=""
                                     />
                                 </td>
-                            </tr>
-
-                            {/*     <tr>
-                                <td>
-                                    <label htmlFor="comida">Comida :</label>
-                                </td>
-
-                                <td>
-                                    <input
-                                        type="text"
-                                        name="comida"
-                                        id="comida"
-                                        placeholder="Escriba su comida"
-                                        onChange={infInput}
-                                        value={info.comida}
-                                    />
-                                </td>
-                            </tr> */}
+                            </tr>                       
                         </tbody>
                         <div className="btonForm">
                             <button type="submit">Reservar</button>
@@ -218,34 +200,35 @@ export const Reserva = () => {
                 </form>
                 <div className="contaTR container">
                     <table className="tableF2 ">
-                        <thead >
-                            <tr >
+                        <thead>
+                            <tr>
                                 <th>Nombre</th>
                                 {/* <th>Comida </th> */}
                                 <th>Hora</th>
                                 <th>Fecha</th>
                                 <th>Comensales</th>
                                 <th>Telefono</th>
-                                <th>Acciones</th>                                
+                                <th>Acciones</th>
                             </tr>
                         </thead>
-                            
+
                         <tbody>
                             {infoArray.map((el) => (
                                 <tr key={el.id}>
                                     <td>{el.nombre}</td>
-                                    {/* <td>{el.comida}</td> */}
                                     <td>{el.hora}</td>
                                     <td>{el.fecha}</td>
                                     <td>{el.comensales}</td>
                                     <td>{el.telefono}</td>
                                     <td>
-                                        <button className="butnEd"
+                                        <button
+                                            className="butnEd"
                                             onClick={() => setEditarID(el.id)}
                                         >
                                             Editar
                                         </button>
-                                        <button className="butnEl"
+                                        <button
+                                            className="butnEl"
                                             onClick={() => bEliminar(el.id)}
                                         >
                                             Eliminar
