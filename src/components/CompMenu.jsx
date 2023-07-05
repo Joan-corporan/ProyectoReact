@@ -7,7 +7,7 @@ export const CompMenu = () => {
                 <div className="container divMenu">
                     <article className="Logmenu">
                     <h1>
-                        <p>Restaurante C&B</p>
+                        <p>Restaurant C&B</p>
                     </h1>
                     <span className="Logmen" >Menú</span>
 

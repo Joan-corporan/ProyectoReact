@@ -10,14 +10,14 @@ import { Footer } from "./components/Footer";
 
 function App() {
   return (
-    <>
+    <div className="bg-G">
       <Navbar />
       <MainRoute />
       <ToastContainer />
       <Footer/>
     
 
-    </>
+    </div>
   );
 }
 
