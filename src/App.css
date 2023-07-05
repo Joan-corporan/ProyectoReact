@@ -6,6 +6,9 @@
 .bagC {
     background-color: #f0dfc5;
 }
+.box p{
+    text-align: center;
+}
 div .bagC {
     display: flex;
     flex-direction: row;
@@ -33,7 +36,11 @@ div .bagC .div2navF span a{
 }
 
 /*................... Estilos de la HomePages : Quienes somos .......................... */
-
+.qsomosdivH1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .qsomosdivH {
     display: flex;
     flex-direction: row;
@@ -44,9 +51,10 @@ div .bagC .div2navF span a{
     margin-top: 40px;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 75%;
+    
 }
 .divH1 p{
     font-size: 18px;
@@ -62,21 +70,25 @@ div .bagC .div2navF span a{
 }
 @media (max-width:991px) {
     .divH1{
+        
         width: 100%;
+        
+        
     }  
+
     
 }
-.divQimg{
+/* .divQimg{
     background-image :url(../public/assets/images/img1H.jpeg) ;
     width: 100%;
     height: 100%;
     background-size: cover;
-   /*  filter: grayscale(50%); */
+   
    border-radius: 12px;
     
 
     
-}
+} */
 @media (max-width: 991px) {
     .qsomosdivH {
         display: flex;
@@ -149,6 +161,12 @@ div .bagC .div2navF span a{
 }
 .claswi {
     text-align: center;
+    width: 100%;
+}
+/* .divUbi{
+    width: 100%;
+} */
+.divUbi img{
     width: 100%;
 }
 

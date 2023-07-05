@@ -1,43 +1,40 @@
 import React, { useState } from "react";
-import{toast} from "react-toastify"
+import { toast } from "react-toastify";
 import { db } from "../firebase/firebase";
 
-
-
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
-
+/* const AnyReactComponent = ({ text }) => <div>{text}</div>; */
 
 export const FormularioContHpage = () => {
-  const valorinicial={
-    email: '',
-    telefono:''
-  } 
-  const[contact, setContact]=useState(valorinicial)
-  
-  const handleinfoC =({target})=>{
-    setContact({
-      ...contact,
-      [target.name]:target.value
-    })
-    console.log(contact)
-  }
-  const setInformacion = async (e)=>{
-    e.preventDefault()
-    console.log(contact)
-    if(contact.email ==='' || contact.telefono ===''){
-      toast('Hay campos vacios',{
-        type: "warning",
-        autoClose: 3000
-      })
-    }
-   
-    await db.collection('contactopersona').add(contact)
-    toast('La informacion se envio con exito',{
-      type:"success",
-      autoClose:3000
-    })
-    setContact(valorinicial)
-  }
+    const valorinicial = {
+        email: "",
+        telefono: "",
+    };
+    const [contact, setContact] = useState(valorinicial);
+
+    const handleinfoC = ({ target }) => {
+        setContact({
+            ...contact,
+            [target.name]: target.value,
+        });
+        console.log(contact);
+    };
+    const setInformacion = async (e) => {
+        e.preventDefault();
+        console.log(contact);
+        if (contact.email === "" || contact.telefono === "") {
+            toast("Hay campos vacios", {
+                type: "warning",
+                autoClose: 3000,
+            });
+        }
+
+        await db.collection("contactopersona").add(contact);
+        toast("La informacion se envio con exito", {
+            type: "success",
+            autoClose: 3000,
+        });
+        setContact(valorinicial);
+    };
 
     return (
         <>
@@ -49,7 +46,7 @@ export const FormularioContHpage = () => {
                     </p>
                     <h5>Formulario de contacto:</h5>
                     <div className="divContForm">
-                        <form className="fomr-dflexC" onSubmit={setInformacion }>
+                        <form className="fomr-dflexC" onSubmit={setInformacion}>
                             <div className="claswi">
                                 <label className="labfC" htmlFor="email">
                                     Email:
@@ -60,7 +57,6 @@ export const FormularioContHpage = () => {
                                     placeholder="email@gmail.com"
                                     name="email"
                                     onChange={handleinfoC}
-                                    
                                 />
                             </div>
                             <div className="claswi">
@@ -75,7 +71,6 @@ export const FormularioContHpage = () => {
                                     min={12345678}
                                     max={999999999}
                                     onChange={handleinfoC}
-                                    
                                 />
                             </div>
                             <div className="divBuForCo">
@@ -88,8 +83,9 @@ export const FormularioContHpage = () => {
                 </div>
                 <div className="divH1 container bagrContacF">
                     <h4>Ubicación:</h4>
-                    <div>
-                        
+                    <div className="divUbi">
+                        <a href="https://goo.gl/maps/XWjYc859CgYSg34s6"><img src="../../public/assets/images/ubiccionHp.png" alt="ubicacion" /></a>
+                       
                     </div>
                 </div>
             </div>

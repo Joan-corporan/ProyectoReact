@@ -13,7 +13,7 @@ export const Navbar = () => {
                         />
                     </a>
                     <span>
-                        <a href="/">C&B</a>{" "}
+                        <a href="/">Comer&Beber</a>
                     </span>
                 </div>
                 <nav className="navbar navbar-expand-sm ">

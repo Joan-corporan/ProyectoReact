@@ -10,7 +10,7 @@ export const HomePages = ({nombre}) => {
 
   return (
     <>
-      <QsomosHpages nombre={nombre} otraprop={'Hamburguesa'}  />
+      <QsomosHpages nombre={nombre}   />
       <FormularioContHpage/>
     </>
   );

@@ -1,19 +1,19 @@
 import React from "react";
 
-export const QsomosHpages = ({nombre, otraprop}) => {
+export const QsomosHpages = ({nombre }) => {
     return (
         
-            <div className="qsomosdivH ">
+            <div className="qsomosdivH1 ">
                 <div className="divH1 container">
                     
                     <div className="divQimg">
-                        {/* <img src="../../public/assets/images/img1H.jpeg" alt="Hamburguesa" /> */}
+                        <img src="../../public/assets/images/img1H.jpeg" alt="Hamburguesa" />
                     </div>
                 </div>
 
                 <div className="divH1  container ">
-                    <span>SOBRE NOSOTROS {otraprop}</span>
-                    <div>
+                    <span>SOBRE NOSOTROS </span>
+                    <div className="box">
                         
                         <p>
                             {nombre} es una empresa gastronómica familiar,
@@ -22,9 +22,9 @@ export const QsomosHpages = ({nombre, otraprop}) => {
                             expander este gran Don hasta el día de hoy.
                             Trabajando siempre con los mejores ingredientes,
                             materias prima y nuestro más preciado secreto, el
-                            mantener las recetas tradicionales de C&B
+                            mantener las recetas tradicionales de {nombre}
                             para crear y llevar a la mesa los mejores sabores.
-                            C&B es producto de platos y recetas pasado
+                            {nombre} es producto de platos y recetas pasado
                             de generación en generación, conservando siempre la
                             su buen sabor. Todos los productos son elaborados
                             con la más alta tecnología en nuestra planta y con
@@ -37,14 +37,13 @@ export const QsomosHpages = ({nombre, otraprop}) => {
                             aseguran una excelente preparación. Todos nuestros
                             locales, distribuidos a lo largo de la región
                             metropolitana, son un elemento más del conjunto de
-                            atributos que hace a C&B tan especial, con
+                            atributos que hace a {nombre} tan especial, con
                             una clientela fiel que ha traspasado generaciones,
                             porque en cada uno de nuestros locales encuentran la
                             magia para compartir con familia y amigos, teniendo
                             una experiencia única.
                         </p>
-                        {/* <p></p>
-                        <p></p> */}
+                        
                     </div>
                 </div>
             </div>
