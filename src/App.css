@@ -1,10 +1,12 @@
 /*......................... Estilos del navbar ..................... */
 * {
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
 .bagC {
     background-color: #f0dfc5;
+    height: 100px;
 }
 .box p{
     text-align: center;
@@ -25,14 +27,16 @@ div .bagC nav ul{
     align-items: center;
 }
 .navC{
-    font-size: 18px;
+    font-family:cursive;
+    font-size: 22px;
 }
 div .bagC .div2navF span a{
+    font-family:cursive;
     color: black;
     text-decoration: none;
     margin-left: 10px;
-    font-size: 26px;
-    font-weight: 600;
+    font-size: 36px;
+    /* font-weight: 600; */
 }
 
 /*................... Estilos de la HomePages : Quienes somos .......................... */
