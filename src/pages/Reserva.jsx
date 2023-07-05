@@ -101,7 +101,7 @@ export const Reserva = () => {
         <>
             <div className="container dispFlCont">
                 <form className="contFormR" onSubmit={submitInfo}>
-                    <h2>Reservar</h2>
+                    <span>Reservar</span>
                     <table className="tableF">
                         <tbody>
                             <tr>
@@ -200,8 +200,8 @@ export const Reserva = () => {
                 </form>
                 <div className="contaTR container">
                     <table className="tableF2 ">
-                        <thead>
-                            <tr>
+                        <thead className="theE">
+                            <tr >
                                 <th>Nombre</th>
                                 {/* <th>Comida </th> */}
                                 <th>Hora</th>
@@ -214,13 +214,13 @@ export const Reserva = () => {
 
                         <tbody>
                             {infoArray.map((el) => (
-                                <tr key={el.id}>
-                                    <td>{el.nombre}</td>
-                                    <td>{el.hora}</td>
-                                    <td>{el.fecha}</td>
-                                    <td>{el.comensales}</td>
-                                    <td>{el.telefono}</td>
-                                    <td>
+                                <tr className="trE" key={el.id}>
+                                    <td className="tdE">{el.nombre}</td>
+                                    <td className="tdE">{el.hora}</td>
+                                    <td className="tdE">{el.fecha}</td>
+                                    <td className="tdE">{el.comensales}</td>
+                                    <td className="tdE">{el.telefono}</td>
+                                    <td className="tdE tdEMb">
                                         <button
                                             className="butnEd"
                                             onClick={() => setEditarID(el.id)}

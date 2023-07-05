@@ -15,31 +15,47 @@ export const Navbar = () => {
                     <span>
                         <a href="/">Comer&Beber</a>
                     </span>
+                    <span>
+                        <a className="respn" href="/">C&B</a>
+                    </span>
                 </div>
-                <nav className="navbar navbar-expand-sm ">
-                    <ul className="navbar-collapse">
-                        <div className="navbar-nav">
-                            <NavLink className="navC nav-item nav-link" to="/">
-                                Sobre Nosotros
-                            </NavLink>
-                        </div>
-                        <div className="navbar-nav">
-                            <NavLink
-                                className="navC nav-item nav-link"
-                                to="nmenu"
-                            >
-                                Nuestro Menú
-                            </NavLink>
-                        </div>
-                        <div className="navbar-nav">
-                            <NavLink
-                                className="navC nav-item nav-link"
-                                to="reserva"
-                            >
-                                Reservaciones
-                            </NavLink>
-                        </div>
-                    </ul>
+                <nav className="navbar navbar-expand-lg ">
+                    <div className="container  centerB">
+                        <button
+                            className="navbar-toggler"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#nav"
+                        >
+                            <span className="navbar-toggler-icon"></span>
+                        </button>
+                        <ul className="collapse navbar-collapse" id="nav">
+                            <div className="navbar-nav">
+                                <NavLink
+                                    className="navC nav-item nav-link"
+                                    to="/"
+                                >
+                                    Sobre Nosotros
+                                </NavLink>
+                            </div>
+                            <div className="navbar-nav">
+                                <NavLink
+                                    className="navC nav-item nav-link"
+                                    to="nmenu"
+                                >
+                                    Nuestro Menú
+                                </NavLink>
+                            </div>
+                            <div className="navbar-nav">
+                                <NavLink
+                                    className="navC nav-item nav-link"
+                                    to="reserva"
+                                >
+                                    Reservaciones
+                                </NavLink>
+                            </div>
+                        </ul>
+                    </div>
                 </nav>
             </header>
         </div>

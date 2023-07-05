@@ -3,17 +3,24 @@
     margin: 0;
     padding: 0;
 }
-.bg-G{
-    
+.bg-G {
+    width: 100%;
     background-image: url(../public/assets/images/bg-img/bg-global1.png);
     background-size: auto;
 }
 /*......................... Estilos del navbar ..................... */
 .bagC {
     background-color: #f0dfc5;
-    height: 100px;
+    padding: 30px 5px;
 }
-.box p{
+nav .centerB {
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.box p {
     text-align: center;
 }
 div .bagC {
@@ -22,30 +29,43 @@ div .bagC {
     justify-content: space-around;
     /* align-items: center; */
 }
-div .bagC nav ul{
+div .bagC nav ul {
     margin-bottom: 0;
 }
-.div2navF{
+.div2navF {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
-.navC{
-    font-family:cursive;
+.navC {
+    font-family: cursive;
     font-size: 22px;
 }
-div .bagC .div2navF span a{
-    font-family:cursive;
+div .bagC .div2navF span a {
+    font-family: cursive;
     color: black;
     text-decoration: none;
     margin-left: 10px;
     font-size: 36px;
+    text-shadow: 0.5px 0.5px 21px;
+}
+@media (max-width:542px) {
+    header span a{
+        display: none;
+    }
+    .respn{
+        display: block;
+    }
+    .bagC {
+        
+        padding: 30px 15px;
+    }
     
 }
 
 /*................... Estilos de la HomePages : Quienes somos .......................... */
-.qsomosdivH1{
+.qsomosdivH1 {
     margin-top: 1rem;
     border-radius: 16px;
     background-color: #f0dfc5d8;
@@ -57,39 +77,33 @@ div .bagC .div2navF span a{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
 }
 .divH1 {
-    
     margin-top: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 75%;
-    
 }
-.divH1 p{
+.divH1 p {
     font-size: 18px;
 }
-.divH1 span{
+.divH1 span {
     font-weight: 600;
     font-size: 21px;
     color: #4f4d4a;
 }
-.divQimg img{
-   border-radius: 8px;
+
+.divQimg img {
+    /* align-items: center; */
+    border-radius: 8px;
     width: 100%;
 }
-@media (max-width:991px) {
-    .divH1{
-        
+@media (max-width: 991px) {
+    .divH1 {
         width: 100%;
-        
-        
-    }  
-
-    
+    }
 }
 
 @media (max-width: 991px) {
@@ -170,7 +184,7 @@ div .bagC .div2navF span a{
     width: 100%;
 }
 
-.divUbi img{
+.divUbi img {
     width: 100%;
 }
 
@@ -210,12 +224,12 @@ div .bagC .div2navF span a{
     margin-bottom: 20px;
     margin-left: 10px;
     padding: 20px;
-    background-color: #F4F6F8;
+    background-color: #f4f6f8;
 }
 
 /* ....................Estilos Menu............................. */
 
-.divnone{
+.divnone {
     width: 80%;
 }
 .divMenu .Logmenu {
@@ -229,22 +243,22 @@ div .bagC .div2navF span a{
 }
 
 .divMenu {
-    padding: 40px 0;
+    padding: 40px 15px;
     margin: 40px 0;
     background-color: #f0dfc5d8;
     border-radius: 15px;
-    
 }
 .divMenu p {
     font-size: 50px;
     text-shadow: 0.5px 0.5px 21px;
     text-align: center;
     font-family: cursive;
-    
-    
 }
 .divCmc1 {
-    padding: 0 60px;
+    border-style: solid;
+    background-color: #f4f6f8;
+    border-radius: 16px;
+    padding: 10px 60px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -257,15 +271,17 @@ div .bagC .div2navF span a{
     justify-content: center;
     align-items: center;
 }
-.menuCont1 h2{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.menuCont1 h2 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
 }
-.menuCont1 img{
+.menuCont1 img {
     width: 100%;
     border-radius: 12px;
 }
-.menuCont1 li{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.menuCont1 li {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
     font-size: 19px;
 }
 
@@ -280,21 +296,22 @@ div .bagC .div2navF span a{
     margin-bottom: 20px;
 }
 .divMen .Log {
-    font-size: 50px;
-    font-weight: 600;
+    font-size: 40px;
+    font-weight: 400;
+    text-decoration: underline;
 }
 
 .divMen {
     padding: 40px 0;
     margin: 40px 0;
-    background-color: rgba(253, 220, 3, 0.074);
+    background-color: #f0dfc5d8;
     border-radius: 15px;
 }
 .divMen p {
-    font-size: 55px;
-    text-shadow: 1px 1px 8px;
+    font-size: 50px;
+    text-shadow: 0.5px 0.5px 21px;
     text-align: center;
-    margin-bottom: 30px;
+    font-family: cursive;
 }
 .divCmc {
     padding: 0 60px;
@@ -311,12 +328,18 @@ div .bagC .div2navF span a{
     justify-content: center;
     align-items: center;
 }
-.menuCont img{
+.menuCont h2 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+}
+.menuCont img {
     width: 100%;
     border-radius: 12px;
     margin-bottom: 15px;
 }
-.menuCont li{
+.menuCont li {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
     font-size: 19px;
 }
 
@@ -327,7 +350,7 @@ div .bagC .div2navF span a{
     .prueba {
         display: block;
     }
-    .menuCont{
+    .menuCont {
         width: 100%;
     }
 }
@@ -340,10 +363,13 @@ div .bagC .div2navF span a{
     justify-content: center;
     align-items: center;
 }
-.contFormR h2 {
+.contFormR span {
+    font-family: cursive;
+    padding: 6px 22px;
+    border-radius: 12px;
+    background-color: rgba(240, 255, 255, 0.853);
     margin-top: 55px;
     font-size: 3rem;
-    font-family: Arial, Helvetica, sans-serif;
 }
 .tableF {
     padding: 10px;
@@ -352,8 +378,7 @@ div .bagC .div2navF span a{
     flex-direction: column;
     align-items: center;
     border-radius: 12px;
-
-    background-color: #f0dfc528;
+    background-color: #f0dfc5d8;
 }
 .tableF label {
     font-size: 23px;
@@ -387,6 +412,7 @@ div .bagC .div2navF span a{
     box-shadow: 1px 1px 3px rgb(72, 71, 71);
 }
 @media (max-width: 467px) {
+   
     .tableF label {
         font-size: 16px;
         margin: 10px;
@@ -408,9 +434,8 @@ div .bagC .div2navF span a{
     width: 100%;
 }
 .contaTR {
-    overflow: auto;
     border-radius: 12px;
-    background-color: rgba(240, 255, 255, 0.65);
+    background-color: rgba(240, 255, 255, 0.853);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -479,27 +504,30 @@ div .bagC .div2navF span a{
         border-style: solid;
      }
  */
-    table {
+    table .tableF2 {
         width: 100%;
     }
-    thead {
+    .theE {
         display: none;
     }
-    tr:nth-of-type(2n) {
+    tr .trE:nth-of-type(2n) {
         background-color: inherit;
     }
-    tr td:first-child {
+    tr .tdE:first-child {
         background: #f0f0f0;
         font-weight: bold;
         font-size: 1.3em;
     }
-    tbody td {
+    tbody .tdE {
         display: block;
         text-align: center;
     }
-    tbody td:before {
+    tbody .tdE:before {
         content: attr(data-th);
         display: block;
         text-align: center;
+    }
+    .tdEMb {
+        margin-bottom: 8px;
     }
 }
