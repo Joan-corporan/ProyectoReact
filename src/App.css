@@ -50,18 +50,16 @@ div .bagC .div2navF span a {
     font-size: 36px;
     text-shadow: 0.5px 0.5px 21px;
 }
-@media (max-width:542px) {
-    header span a{
+@media (max-width: 542px) {
+    header span a {
         display: none;
     }
-    .respn{
+    .respn {
         display: block;
     }
     .bagC {
-        
         padding: 30px 15px;
     }
-    
 }
 
 /*................... Estilos de la HomePages : Quienes somos .......................... */
@@ -215,66 +213,63 @@ div .bagC .div2navF span a {
     justify-content: center;
     align-items: center;
 }
-.uldiv{
+.uldiv {
     padding: 20px 10px;
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content:end ;
+    justify-content: end;
     align-items: center;
 }
-li{
+li {
     list-style: none;
 }
-li span{
+li span {
     color: #4f4d4a;
     font-size: 20px;
 }
-.uldiv1{
+.uldiv1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.uldiv1 li{
-    margin-bottom:5px ;
-    
+.uldiv1 li {
+    margin-bottom: 5px;
+
     color: #4f4d4a;
 }
-.uldiv li{
+.uldiv li {
     border-radius: 16px;
     margin: 5px;
     padding: 8px;
-    
+
     cursor: pointer;
     transition: 300ms;
 }
-.uldiv li:hover{
-    
+.uldiv li:hover {
     background-color: #4f4d4a6e;
 }
-.divFF{
+.divFF {
     display: flex;
     flex-direction: row !important;
     justify-content: space-around !important;
     align-items: center;
 }
-.divfooter p{
+.divfooter p {
     padding: 0 10px;
 }
 
-@media (max-width:533px) {
-    .divFF{
+@media (max-width: 533px) {
+    .divFF {
         display: flex;
         flex-direction: column !important;
     }
-    .uldiv{
+    .uldiv {
         padding: 0;
     }
-    
 }
-
 
 /* ...................Estilos de la seccion Contactate con nostros del homepages................ */
 .bagrContacF {
@@ -473,7 +468,6 @@ li span{
     box-shadow: 1px 1px 3px rgb(72, 71, 71);
 }
 @media (max-width: 467px) {
-   
     .tableF label {
         font-size: 16px;
         margin: 10px;
@@ -529,42 +523,6 @@ li span{
 }
 
 @media (max-width: 991px) {
-    /*  .tableF2{
-        text-align: center;
-        width: 100%;
-        
-        
-    }
-    .contaTR{
-        overflow: auto;
-        border-radius: 12px;
-        background-color: rgba(240, 255, 255, 0.65);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        margin: 30px 0;
-        padding: 0 10px;
-    
-     }
-
-    
-     .tableF2 th{
-        font-size: 16px;
-       
-     }
-     .tableF2 td{
-        font-size:15px ;
-        
-     }
-     .tableF2 button {
-        padding:2px 3px ;
-        margin:4px ;
-        border-radius: 8px;
-        border-style: solid;
-     }
- */
     table .tableF2 {
         width: 100%;
     }
