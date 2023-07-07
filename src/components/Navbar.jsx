@@ -8,7 +8,7 @@ export const Navbar = () => {
                 <div className="div2navF">
                     <a href="/">
                         <img
-                            src="../../public/assets/images/imgL.png"
+                            src="../../public/assets/images/img-pages/imgL.png"
                             alt="logo"
                         />
                     </a>

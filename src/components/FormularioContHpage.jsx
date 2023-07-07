@@ -84,7 +84,7 @@ export const FormularioContHpage = () => {
                 <div className="divH1 container bagrContacF">
                     <h4>Ubicación:</h4>
                     <div className="divUbi">
-                        <a href="https://goo.gl/maps/XWjYc859CgYSg34s6"><img src="../../public/assets/images/ubiccionHp.png" alt="ubicacion" /></a>
+                        <a href="https://goo.gl/maps/XWjYc859CgYSg34s6"><img src="../../public/assets/images/img-pages/ubiccionHp.png" alt="ubicacion" /></a>
                        
                     </div>
                 </div>

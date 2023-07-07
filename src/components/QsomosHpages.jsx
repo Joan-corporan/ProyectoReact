@@ -7,7 +7,7 @@ export const QsomosHpages = ({nombre }) => {
                 <div className="divH1 container">
                     
                     <div className="divQimg">
-                        <img src="../../public/assets/images/jb-origin.jpeg" alt="Hamburguesa" />
+                        <img src="../../public/assets/images/img-pages/jb-origin.jpeg" alt="Hamburguesa con mensaje" />
                     </div>
                 </div>
 
