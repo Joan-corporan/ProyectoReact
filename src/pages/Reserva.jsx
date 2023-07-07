@@ -43,16 +43,16 @@ export const Reserva = () => {
             });
             return;
         }
-        try {
-            if (editarID === "") {
+        try {          
+            if (editarID === "") {               
                 await db.collection("comida").add(info);
-                console.log(info);
                 toast("Informacion creada con exito", {
                     type: "success",
                     autoClose: 3000,
                 });
                 setinfo(initialvalue);
-            } else {
+            }
+             else {
                 await db.collection("comida").doc(editarID).update(info);
                 toast("La informacion se a actualizado", {
                     type: "info",
@@ -70,7 +70,7 @@ export const Reserva = () => {
                 docs.push({ ...doc.data(), id: doc.id });
             });
             setinfoArray(docs);
-            console.log("obtener datos");
+            
             
         });
     };

@@ -17,7 +17,7 @@ export const CompMenu2 = () => {
                             <img src="../../public/assets/images/imgMenu1.jpeg" alt="imagen de hamburguesa" />
                         </div>
                         <div className="menuCont">
-                            <h2>Hamburguesa</h2>
+                            <h2>Hamburguesas</h2>
                             <ul>
                                 <li>Mediana</li>
                                 <li>Grande</li>
