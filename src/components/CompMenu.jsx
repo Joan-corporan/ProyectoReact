@@ -40,13 +40,13 @@ export const CompMenu = () => {
                         </section>
                         <section className="menuCont1">
                             
-                         <img src="../../public/assets/images/img-pages/imagMenu2.jpeg" alt="Imagen de Sandwich" />
+                         <img src="/assets/images/img-pages/imagMenu2.jpeg" alt="Imagen de Sandwich" />
                         </section>
                     </div>
                     <div className="divCmc1 container">
                         <section className="menuCont1">
                             
-                            <img src="../../public/assets/images/img-pages/imgMenu3.jpeg" alt="Imagen de Pizza" />
+                            <img src="/assets/images/img-pages/imgMenu3.jpeg" alt="Imagen de Pizza" />
                         </section>
 
                         <section className="menuCont1">
@@ -74,7 +74,7 @@ export const CompMenu = () => {
 
                         <section className="menuCont1">
                             
-                            <img src="../../public/assets/images/img-pages/imgMenu4.jpeg" alt="Imagen de Bebidas" />
+                            <img src="/assets/images/img-pages/imgMenu4.jpeg" alt="Imagen de Bebidas" />
                         </section>
                     </div>
                 </div>

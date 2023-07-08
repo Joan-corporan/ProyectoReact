@@ -14,7 +14,7 @@ export const CompMenu2 = () => {
                     <div className="divCmc container">
                         <div className="menuCont">
                             
-                            <img src="../../public/assets/images/img-pages/imgMenu1.jpeg" alt="imagen de hamburguesa" />
+                            <img src="/assets/images/img-pages/imgMenu1.jpeg" alt="imagen de hamburguesa" />
                         </div>
                         <div className="menuCont">
                             <h2>Hamburguesas</h2>
@@ -30,7 +30,7 @@ export const CompMenu2 = () => {
                     <div className="divCmc container">
                         <section className="menuCont">
                             
-                            <img src="../../public/assets/images/img-pages/imagMenu2.jpeg" alt="" />
+                            <img src="/assets/images/img-pages/imagMenu2.jpeg" alt="" />
                         </section>
                         <section className="menuCont">
                             <h2>Sandwich</h2>
@@ -46,7 +46,7 @@ export const CompMenu2 = () => {
                     <div className="divCmc container">
                         <section className="menuCont">
                             
-                            <img src="../../public/assets/images/img-pages/imgMenu3.jpeg" alt="" />
+                            <img src="/assets/images/img-pages/imgMenu3.jpeg" alt="" />
                         </section>
 
                         <section className="menuCont">
@@ -63,7 +63,7 @@ export const CompMenu2 = () => {
                     <div className="divCmc container">
                         <section className="menuCont">
                            
-                            <img src="../../public/assets/images/img-pages/imgMenu4.jpeg" alt="Imagen de Bebidas" />
+                            <img src="/assets/images/img-pages/imgMenu4.jpeg" alt="Imagen de Bebidas" />
                         </section>
                         <section className="menuCont">
                             <h2>Bebidas</h2>
