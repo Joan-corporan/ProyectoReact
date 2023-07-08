@@ -63,7 +63,7 @@ export const CompMenu2 = () => {
                     <div className="divCmc container">
                         <section className="menuCont">
                            
-                            <img src="../../public/assets/images/img-pages/imgMenu4.jpeg" alt="" />
+                            <img src="../../public/assets/images/img-pages/imgMenu4.jpeg" alt="Imagen de Bebidas" />
                         </section>
                         <section className="menuCont">
                             <h2>Bebidas</h2>
