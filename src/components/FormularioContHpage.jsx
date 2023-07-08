@@ -26,6 +26,7 @@ export const FormularioContHpage = () => {
                 type: "warning",
                 autoClose: 3000,
             });
+            return;
         }
 
         await db.collection("contactopersona").add(contact);
