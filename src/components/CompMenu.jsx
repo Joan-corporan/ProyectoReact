@@ -14,7 +14,7 @@ export const CompMenu = () => {
                     </article>
                     <div className="divCmc1 container">
                         <div className="menuCont1">
-                        <img src="../../public/assets/images/img-pages/imgMenu1.jpeg" alt="imagen de hamburguesa" />
+                        <img src="/assets/images/img-pages/imgMenu1.jpeg" alt="imagen de hamburguesa" />
                         </div>
                         <div className="menuCont1">
                             <h2>Hamburguesas</h2>
